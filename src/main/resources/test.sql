@@ -17,6 +17,7 @@ CREATE TABLE public.islem
     kitapno bigint NOT NULL,
     atarih character varying(20) NOT NULL,
     vtarih character varying(20),
+
     PRIMARY KEY (islemno)
 );
 
